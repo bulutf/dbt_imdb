@@ -1,0 +1,13 @@
+
+version: 2
+
+models:
+
+    - name: SOURCE_IMDB
+      description: "Defining column types"
+      columns:
+          - name: id
+            description: "The primary key for this table"
+            tests:
+                - unique
+                - not_null
