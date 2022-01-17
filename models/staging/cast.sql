@@ -3,7 +3,7 @@ SELECT
 	rank,
 	id,
 	awards,
-	REPLACE(runtime, ' min','')::INTEGER,
+	REPLACE(runtime, ' min','')::INTEGER as runtime,
 	released::DATE,
 	metascore,
 	country,
